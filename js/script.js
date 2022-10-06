@@ -4,4 +4,8 @@ const slide = new Slide('.slide', '.slide-wrapper');
 
 slide.init();
 
-slide.changeSlide(4)
+console.log(slide)
+
+slide.changeSlide(2)
+
+slide.activePrevSlide()
